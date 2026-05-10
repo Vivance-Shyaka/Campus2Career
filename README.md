@@ -1,6 +1,6 @@
 # Campus2Career 🎓
 
-> Bridging the Gap Between Education and Employment
+> Internship and Job Matching System — Bridging Education and Employment
 
 A modern web-based Internship and Job Matching System designed to connect students and recent graduates with companies offering internship opportunities. Built with PHP, MySQL, and a skills-first approach to recruitment.
 
@@ -19,6 +19,7 @@ A modern web-based Internship and Job Matching System designed to connect studen
 - [Features](#features)
 - [System Workflow](#system-workflow)
 - [Skill Matching Engine](#skill-matching-engine)
+- [Screenshots](#screenshots)
 - [Technology Stack](#technology-stack)
 - [Architecture](#architecture)
 - [Database Design](#database-design)
@@ -174,23 +175,63 @@ Match: 50% → Partial Match
 
 ---
 
+## Screenshots
+
+### 🏠 Landing Page
+
+![Landing Page](screenshots/Landingpage.png)
+
+### 🔐 Login Page
+
+![Login Page](screenshots/Loginpage.png)
+
+### 👨‍🎓 Student Dashboard
+
+![Student Dashboard](screenshots/StudentDashbord.png)
+
+### 🏢 Company Dashboard
+
+![Company Dashboard](screenshots/CompanyDashboard.png)
+
+### 👨‍💼 Admin Dashboard
+
+![Admin Dashboard](screenshots/AdminDashboard.png)
+
+### 📄 Internship Details Page
+
+![Internship Details](screenshots/Internship%20Details.png)
+
+### 👤 Applicant Profile Review
+
+![Applicant Profile](screenshots/Applicant%20Details.png)
+
+### 📋 My Applications Page
+
+![My Applications](screenshots/MyApplication%20page.png)
+
+---
+
 ## Technology Stack
 
 ### Backend
+
 - **PHP 7.4+** – Server-side logic with MVC pattern
 - **PDO (PHP Data Objects)** – Secure database access with prepared statements
 - **PHPMailer** – Professional email delivery with SMTP support
 
 ### Database
+
 - **MySQL 8.0+** – Relational database for structured data storage
 - **XAMPP** – Local development environment (Apache, MySQL, PHP)
 
 ### Frontend
+
 - **HTML5 & CSS3** – Semantic markup and modern styling
 - **JavaScript (ES6+)** – Client-side interactivity and dynamic updates
 - **Font Awesome 6** – Icon library for UI elements
 
 ### Tools & Utilities
+
 - **Git & GitHub** – Version control and collaboration
 - **Composer** (optional) – Dependency management
 - **Chart.js** – Data visualization for dashboards
@@ -357,7 +398,6 @@ The database schema is managed through:
    For production use, configure SMTP settings via environment variables or directly in `EmailService.php`:
 
    ```php
-   // In .env file or server environment
    SMTP_HOST=smtp.gmail.com
    SMTP_PORT=587
    SMTP_SECURE=tls
@@ -452,15 +492,6 @@ campus2career/
 - **CSRF Protection** – Token-based validation on sensitive forms (where implemented)
 - **Access Control** – Role-based middleware prevents unauthorized page access
 
-### Best Practices for Deployment
-
-- Disable `display_errors` in production (`php.ini`)
-- Use HTTPS with valid SSL certificate
-- Store database credentials outside web root if possible
-- Regularly update PHP and MySQL versions
-- Implement rate limiting on login endpoints
-- Add CAPTCHA for registration to prevent bots
-- Keep backups of database and uploads
 
 ---
 
@@ -504,47 +535,6 @@ $uploader->save($_FILES['cv'], $studentId);
 
 - `controllers/notifications_ajax.php` – Polls for new notifications (returns JSON)
 
----
-
-## Contributing
-
-We welcome contributions to improve Campus2Career! Here's how you can help:
-
-### Reporting Issues
-
-- Use GitHub Issues to report bugs or request features
-- Include steps to reproduce, expected vs actual behavior
-- Attach screenshots if applicable
-
-### Development Workflow
-
-1. **Fork** the repository
-2. **Create** a feature branch: `git checkout -b feature/your-feature-name`
-3. **Code** following PSR-12 standards where applicable
-4. **Test** thoroughly on local environment
-5. **Commit** with clear, descriptive messages
-6. **Push** and open a Pull Request
-
-### Code Style
-
-- Indentation: 4 spaces
-- Naming: camelCase for variables/functions, PascalCase for classes, snake_case for database tables
-- PHP tags: always use `<?php` (no short tags)
-- File organization: keep MVC separation intact
-
-### Areas for Contribution
-
-- [ ] Refactor to use Composer and PHP autoloading (PSR-4)
-- [ ] Add RESTful API layer for mobile app support
-- [ ] Implement advanced matching (fuzzy search, weighting)
-- [ ] Add real-time chat between students and companies
-- [ ] Integrate with LinkedIn for profile import
-- [ ] Add multi-language support (i18n)
-- [ ] Implement video interview scheduling
-- [ ] Add certificate verification via blockchain/hashing
-- [ ] Create Docker deployment configuration
-- [ ] Add unit and integration tests (PHPUnit)
-- [ ] Improve UI with modern framework (React/Vue integration)
 
 ---
 
@@ -571,19 +561,21 @@ Attribution is appreciated but not required.
 
 ## 📬 Contact
 
-For questions, partnerships, or support:
+**Developer:** Vivance SHYAKA  
+**Institution:** Adventist University of Central Africa (AUCA)  
+**Year:** 2026
 
-- **Email:** support@campus2career.com (placeholder)
-- **GitHub:** [@yourusername](https://github.com/yourusername) (update with your handle)
-- **Website:** https://campus2career.com (placeholder)
+For questions, partnerships, or support, feel free to reach out:
+
+- 📧 Email: [shyakavivance1@gmail.com](mailto:shyakavivance1@gmail.com)
+- 💼 GitHub: [Vivance-Shyaka/Campus2Career](https://github.com/Vivance-Shyaka/Campus2Career)
+- 🌐 Website: [campus2career.com](https://campus2career.com)
 
 ---
 
 <p align="center">
   <strong>Ready to bridge the gap between campus and career?</strong><br>
-  <a href="register.php">Create Account</a> • <a href="views/public/internships.php">Browse Internships</a>
-</p>
-
-<p align="center">
+  <a href="register.php">Create Account</a> · <a href="views/public/internships.php">Browse Internships</a>
+  <br><br>
   <sub>Last updated: 2026 • Campus2Career v1.0.0</sub>
 </p>
