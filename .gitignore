@@ -1,0 +1,21 @@
+# Logs
+*.log
+
+# Uploads
+uploads/cv/*
+uploads/certificates/*
+
+# Keep folders
+!uploads/cv/.gitkeep
+!uploads/certificates/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment
+.env
