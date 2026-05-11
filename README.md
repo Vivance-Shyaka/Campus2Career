@@ -12,7 +12,7 @@ A modern web-based Internship and Job Matching System designed to connect studen
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Problem Statement](#problem-statement)
@@ -60,7 +60,7 @@ Campus2Career solves these problems with an end-to-end platform for posting, app
 
 ## Features
 
-### 👨‍🎓 Student Portal
+###  Student Portal
 
 - **User Registration & Authentication** – Secure signup/login with role-based access
 - **Profile Management** – Complete academic and personal information
@@ -72,7 +72,7 @@ Campus2Career solves these problems with an end-to-end platform for posting, app
 - **Email Notifications** – Instant updates on application status changes
 - **Dashboard Analytics** – Track applications, match scores, and profile views
 
-### 🏢 Company Portal
+###  Company Portal
 
 - **Company Profile** – Brand presence with description, website, and location
 - **Internship Posting** – Create detailed job listings with responsibilities, expectations, and requirements
@@ -83,7 +83,7 @@ Campus2Career solves these problems with an end-to-end platform for posting, app
 - **Email Alerts** – Notify candidates automatically on status changes
 - **Analytics Dashboard** – Track posted internships, applicant counts, and hiring metrics
 
-### 👨‍💼 Admin Portal
+###  Admin Portal
 
 - **User Management** – Approve, disable, or remove users across all roles
 - **Platform Oversight** – Monitor registrations, activity, and system health
@@ -92,7 +92,7 @@ Campus2Career solves these problems with an end-to-end platform for posting, app
 - **System Configuration** – Manage email settings, database schema, and application settings
 - **Dashboard Analytics** – High-level metrics on students, companies, internships, and applications
 
-### 🔧 Core System Features
+###  Core System Features
 
 - **Skill Matching Algorithm** – Keyword-based matching with percentage scores and labels (Excellent/Good/Partial/Low/No Match)
 - **Real-Time Notifications** – Instant alerts for application updates and interview invites
@@ -177,35 +177,35 @@ Match: 50% → Partial Match
 
 ## Screenshots
 
-### 🏠 Landing Page
+###  Landing Page
 
 ![Landing Page](screenshots/Landingpage.png)
 
-### 🔐 Login Page
+###  Login Page
 
 ![Login Page](screenshots/Loginpage.png)
 
-### 👨‍🎓 Student Dashboard
+### Student Dashboard
 
 ![Student Dashboard](screenshots/StudentDashbord.png)
 
-### 🏢 Company Dashboard
+###  Company Dashboard
 
 ![Company Dashboard](screenshots/CompanyDashboard.png)
 
-### 👨‍💼 Admin Dashboard
+###  Admin Dashboard
 
 ![Admin Dashboard](screenshots/AdminDashboard.png)
 
-### 📄 Internship Details Page
+###  Internship Details Page
 
 ![Internship Details](screenshots/Internship%20Details.png)
 
-### 👤 Applicant Profile Review
+###  Applicant Profile Review
 
 ![Applicant Profile](screenshots/Applicant%20Details.png)
 
-### 📋 My Applications Page
+### My Applications Page
 
 ![My Applications](screenshots/MyApplication%20page.png)
 
@@ -552,14 +552,14 @@ Attribution is appreciated but not required.
 
 ## Acknowledgments
 
-- Built with ❤️ for students, universities, and forward-thinking companies
+- Built with  for students, universities, and forward-thinking companies
 - Inspired by the need for skills-first recruitment in emerging markets
 - Icons by [Font Awesome](https://fontawesome.com/)
 - Hosting suggestions: XAMPP for local dev, AWS EC2/Azure/LAMP for production
 
 ---
 
-## 📬 Contact
+##  Contact
 
 **Developer:** Vivance SHYAKA  
 **Institution:** Adventist University of Central Africa (AUCA)  
@@ -567,9 +567,9 @@ Attribution is appreciated but not required.
 
 For questions, partnerships, or support, feel free to reach out:
 
-- 📧 Email: [shyakavivance1@gmail.com](mailto:shyakavivance1@gmail.com)
-- 💼 GitHub: [Vivance-Shyaka/Campus2Career](https://github.com/Vivance-Shyaka/Campus2Career)
-- 🌐 Website: [campus2career.com](https://campus2career.com)
+-  Email: [shyakavivance1@gmail.com](mailto:shyakavivance1@gmail.com)
+-  GitHub: [Vivance-Shyaka/Campus2Career](https://github.com/Vivance-Shyaka/Campus2Career)
+-  Website: [campus2career.com](https://campus2career.com)
 
 ---
 
