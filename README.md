@@ -27,7 +27,6 @@ A modern web-based Internship and Job Matching System designed to connect studen
 - [Project Structure](#project-structure)
 - [Security](#security)
 - [API Reference](#api-reference)
-- [Contributing](#contributing)
 - [License](#license)
 
 ---
